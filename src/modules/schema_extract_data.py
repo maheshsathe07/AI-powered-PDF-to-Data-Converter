@@ -6,7 +6,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from dotenv import load_dotenv
 import base64
 import google.generativeai as genai
-# from langchain_google_genai import ChatGoogleGenerativeAI
+from langchain_google_genai import ChatGoogleGenerativeAI
 import os
 from PyPDF2 import PdfReader
 

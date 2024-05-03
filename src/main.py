@@ -3,15 +3,15 @@ from streamlit_option_menu import option_menu
 from tools.utilities import load_css
 import json
 
-from views.dashboard import Dashboard
-# from views.extract_data import ExtractData
-# from views.data_annotation import DataAnnotation
-from views.schema_extract_data import SchemaExtractData
-from views.model_training import ModelTraining
-from views.model_tuning import ModelTuning
-from views.data_inference import GenerateVisualInsights
-from views.setup import Setup
-from views.about import About
+from modules.dashboard import Dashboard
+from modules.extract_data import ExtractData
+# from modules.data_annotation import DataAnnotation
+from modules.schema_extract_data import SchemaExtractData
+from modules.model_training import ModelTraining
+from modules.model_tuning import ModelTuning
+from modules.data_inference import GenerateVisualInsights
+from modules.setup import Setup
+from modules.about import About
 import streamlit_javascript as st_js
 import matplotlib.pyplot as plt
 
