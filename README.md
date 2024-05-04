@@ -82,7 +82,7 @@ The project utilizes the following libraries and tools:
 - [Mahesh Sathe](https://github.com/maheshsathe07)
 - [Atharva Shinde](https://github.com/auth-02)
 - [Prem Shejole](https://github.com/shejoleprem)
-- [Bhushan Sangle]
+- [Bhushan Sangle](https://github.com/Goddivinein)
 
 
 ## License
