@@ -20,8 +20,8 @@ The project utilizes the following libraries and tools:
 - **Gemini-pro**: For converting extracted data into JSON format.
 - **Pydantic**: For schema-based data extraction.
 - **Streamlit**: For building interactive web applications.
-- **Pandas**: For data manipulation and analysis.
-- **Matplotlib**: For data visualization.
+- **PandasAi**: For data Visualization.
+- **GROQ with Mixtral**: For getting query based insights from .csv data.
 
 ## Screenshots
 
