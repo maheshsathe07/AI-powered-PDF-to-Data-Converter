@@ -1,3 +1,90 @@
-# A-Self-Learning-AI-Powered-PDF-to-Data-Converter
+# AI-Powered PDF to Data Converter
 
-AI-powered PDF to data converter designed to extract information from PDF documents and convert it into structured data. This project offers two methods of extraction: one that retrieves all data in JSON format and another that extracts data according to predefined business use cases, also provided in JSON format. Additionally, it provides insights on schema-based extracted data after converting it into a data frame. The extraction process utilizes GROQ with Mistral LLM for enhanced accuracy and efficiency.
+Convert PDF files into structured data using AI-powered extraction and generate insights from the extracted data.
+
+## Overview
+
+This project provides a solution for converting PDF files into structured data formats, such as JSON, using advanced AI techniques. It offers various functionalities including generalized data extraction, schema-based extraction, and generating insights from the extracted data.
+
+## Functionalities
+
+1. **Generalized Data Extraction**: Extract all data from PDF files in JSON format.
+2. **Schema-Based Extraction**: Extract data based on predefined schemas for specific document types.
+3. **Generate Insights**: Upload the extracted data in CSV format and generate insights by plotting graphs based on user queries.
+
+## Dependencies
+
+The project utilizes the following libraries and tools:
+
+- **Langchain**: For AI-powered PDF data extraction.
+- **Gemini-pro**: For converting extracted data into JSON format.
+- **Pydantic**: For schema-based data extraction.
+- **Streamlit**: For building interactive web applications.
+- **Pandas**: For data manipulation and analysis.
+- **Matplotlib**: For data visualization.
+
+## Screenshots
+
+1. Dashboard
+   ![Dashboard](src/screenshots/Dashboard.png)
+
+2. Extract Data
+   ![Extract Data](src/screenshots/Extract_Data.png)
+
+3. Extracted Data Output
+   ![Extracted Data Output](src/screenshots/Extract_Data_output.png)
+
+4. Schema-Based Data Extraction
+   ![Schema-Based Data Extraction](src/screenshots/Extract_Schema_Based_data.png)
+
+5. Schema-Based Data Output
+   ![Schema-Based Data Output](src/screenshots/Extract_Schema_Based_Data_output.png)
+
+6. Generate Insights
+   ![Generate Insights](src/screenshots/Generate_insights.png)
+
+7. Generated Insights Output
+   ![Generated Insights Output](src/screenshots/Generate_insights_output.png)
+
+8. Pie Chart
+   ![Pie Chart](src/screenshots/Pie_Chart.png)
+
+## How to Run
+
+1. Install the required dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. Clone the repository:
+
+   ```bash
+   git clone [https://github.com/your_username/your_project.git](https://github.com/maheshsathe07/AI-powered-PDF-to-Data-Converter.git)
+   ```
+
+3. Navigate to the project directory:
+
+   ```bash
+   cd src
+   ```
+
+4. Run the Streamlit app:
+
+   ```bash
+   streamlit run main.py
+   ```
+
+5. Access the app in your browser at `http://localhost:8501`.
+
+## Contributors
+
+- [Mahesh Sathe](https://github.com/maheshsathe07)
+- [Atharva Shinde](https://github.com/auth-02)
+- [Prem Shejole](https://github.com/shejoleprem)
+- [Bhushan Sangle]
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
