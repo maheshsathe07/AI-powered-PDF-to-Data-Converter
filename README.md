@@ -60,7 +60,7 @@ The project utilizes the following libraries and tools:
 2. Clone the repository:
 
    ```bash
-   git clone [https://github.com/maheshsathe07/AI-powered-PDF-to-Data-Converter.git]
+   git clone https://github.com/maheshsathe07/AI-powered-PDF-to-Data-Converter.git
    ```
 
 3. Navigate to the project directory:
