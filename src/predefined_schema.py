@@ -25,7 +25,7 @@ class InvoiceItem(BaseModel):
     item_vat: float = Field(0.0, description="VAT applied to the item")
     item_gross_worth: float = Field(0.0, description="Gross worth of the item (item_net_worth + item_vat)")
 
-# Define Pydantic schema for entire invoice
+# Define Pydantic schema for invoice extraction format
 class MySchema(BaseModel):
     invoice_number: str = Field("None", description="Invoice number")
     invoice_date: str = Field("None", description="Invoice date")
