@@ -2,5 +2,8 @@ langchain
 python-dotenv
 google.generativeai
 langchain_groq
+streamlit
 streamlit-aggrid==0.3.3
 pandasai
+streamlit_option_menu
+streamlit_javascript
