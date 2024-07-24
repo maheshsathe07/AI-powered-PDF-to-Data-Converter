@@ -51,23 +51,24 @@ The project utilizes the following libraries and tools:
 
 ## How to Run
 
-1. Install the required dependencies:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-2. Clone the repository:
+1. Clone the repository:
 
    ```bash
    git clone https://github.com/maheshsathe07/AI-powered-PDF-to-Data-Converter.git
    ```
 
-3. Navigate to the project directory:
+2. Navigate to the project directory:
 
    ```bash
    cd src
    ```
+   
+3. Install the required dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
 
 4. Run the Streamlit app:
 
