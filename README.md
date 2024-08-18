@@ -1,4 +1,4 @@
-# Generaive AI-Powered PDF to Data Converter
+# AI-Powered PDF to Data Converter
 
 Convert PDF files into structured data using AI-powered extraction and generate insights from the extracted data.
 
