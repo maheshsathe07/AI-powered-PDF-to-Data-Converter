@@ -24,9 +24,6 @@ class SchemaExtractData:
         # Configure Keys
         load_dotenv()
         
-        # Set up LangChain - Langsmith Tracking
-        os.environ["LANGCHAIN_TRACING_V2"] = "true"
-        
         # Initialize language model
         genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
         self.llm = ChatGoogleGenerativeAI(model="gemini-pro")
