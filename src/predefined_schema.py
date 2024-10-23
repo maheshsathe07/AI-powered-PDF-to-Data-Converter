@@ -4,17 +4,16 @@ from pydantic import BaseModel, Field
 from typing import List
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.output_parsers import StrOutputParser
-# from google.generativeai import genai
+import google.generativeai as genai
+from dotenv import load_dotenv
 from langchain_google_genai import ChatGoogleGenerativeAI
 import os
 from PyPDF2 import PdfReader
 
 # Configure Google API
-GOOGLE_API_KEY = "AIzaSyA4fVFItCTRy3YTGh-WsZX2TJw78hwYsLg"
-os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
-
-# Initialize language model
-llm = ChatGoogleGenerativeAI(model="gemini-pro", api_key=GOOGLE_API_KEY)
+load_dotenv()
+genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+llm = ChatGoogleGenerativeAI(model="gemini-pro")
 
 # Define Pydantic schema for invoice item
 class InvoiceItem(BaseModel):
