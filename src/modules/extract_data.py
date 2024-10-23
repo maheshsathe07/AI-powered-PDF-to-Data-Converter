@@ -14,9 +14,6 @@ class ExtractData:
     def __init__(self):
         # Load environment variables
         load_dotenv()
-
-        # Set up LangChain - Langsmith Tracking
-        os.environ["LANGCHAIN_TRACING_V2"] = "true"
         
         genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
         self.model = ChatGoogleGenerativeAI(model="gemini-pro")
