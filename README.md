@@ -1,15 +1,3 @@
----
-title: PDF To Data Converter
-emoji: 🌍
-colorFrom: purple
-colorTo: gray
-sdk: streamlit
-sdk_version: 1.39.0
-app_file: src/app.py
-pinned: false
-short_description: Solution to extract data from pdf into a structured format.
----
-
 # AI-Powered PDF to Data Converter
 
 Convert PDF files into structured data using AI-powered extraction and generate insights from the extracted data.
